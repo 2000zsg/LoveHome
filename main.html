@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div>
+                <img id="background" src="static/IMG_MainPage.png">
+                <img id="logo" src="">
+                <a class="nevigation" id="main" href="home">主页</a>
+                <a class="nevigation" id="goods" href="物资主页">物资主页</a>
+                <a class="nevigation" id="user" href="个人中心">{{ username }}</a>          {% comment %} 从数据库中调取用户名 {% endcomment %}
+                <a class="nevigation" id="signout" href="signOut">SIGN OUT</a>
+        </div>
+        <div>
+            <div class="subtitle" id="ourStory">Our Story</div>
+            <p id="story">项目介绍</p>
+        </div>
+        <div>
+            <div class="subtitle" id="offerHelp">Offer your help</div>
+            <div>
+                {% comment %} <img {% endcomment %}
+                <p id="intro1">introduction</p>
+                <a href="Learn More">Learn More</a>
+            </div>
+            <div>
+                {% comment %} <img {% endcomment %}
+                <p id="intro2">introduction</p>
+                <a href="Learn More">Learn More</a>
+            </div>
+        </div>
+        <div>
+            <div class="subtitle" id="ourTeam">Our Team</div>
+            <div>
+                <img src="/static/Huang">
+                <div>Kaiyi Huang</div>
+            </div>
+            <div>
+                <img src="Xiong">
+                <div>Nei Xiong</div>
+            </div>
+            <div>
+                <img src="Wang">
+                <div>Renzhi Wang</div>
+            </div>
+            <div>
+                <img src="Liu">
+                <div>Sichen Liu</div>
+            </div>
+        </div>
+        <div>
+            <div>About us</div>
+            <div>Terms & Conditions</div>
+            <div>Contact us</div>
+            <img src="static/contectLogo.png">
+        </div>
+        
+
+
+    </body>
+</html>

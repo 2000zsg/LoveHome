@@ -1,0 +1,129 @@
+#background{
+    position: absolute;
+    width: 1068px;
+    height: 509px;
+    left: 0px;
+    top: 0px;
+}
+
+#logo{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 50px;
+    top: 10px;
+
+    background: #C4C4C4;
+}
+
+#main{
+    position: absolute;
+    width: 84px;
+    height: 25px;
+    left: 230px;
+    top: 68px;
+}
+
+#goods{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 402px;
+    top: 70px;
+}
+
+#user{
+    position: absolute;
+    width: 93px;
+    height: 23px;
+    left: 566px;
+    top: 69px;
+}
+
+#ourStory{
+    position: absolute;
+    width: 176px;
+    height: 30px;
+    left: 446px;
+    top: 534px;
+}
+
+#offerHelp{
+    position: absolute;
+    width: 221px;
+    height: 62px;
+    left: 419px;
+    top: 91px;    
+}
+
+#ourTeam{
+    position: absolute;
+    width: 254px;
+    height: 24px;
+    left: 402px;
+    top: 683px;
+}
+
+#story{
+    position: absolute;
+    width: 922px;
+    height: 308px;
+    left: 76px;
+    top: 592px;
+    
+}
+
+#intro1{
+    position: absolute;
+    width: 108px;
+    height: 38px;
+    left: 217px;
+    top: 450px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #000000;    
+}
+
+#intro2{
+    position: absolute;
+    width: 108px;
+    height: 38px;
+    left: 738px;
+    top: 448px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #000000;    
+}
+
+navigation{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;        
+}
